@@ -16,7 +16,7 @@ const Model = (scale) => {
       <Canvas 
         orthographic={true}
         className="bg-red-300"
-        camera={{ fov: 40, position: [40, 0, 0] ,zoom:80}}
+        camera={{ fov: 40, position: [40, 0, 0] ,zoom:80}}  
         style={{ width: "100vw", height: "100vh" }}
       >
         {/* Ambient light for better visibility */}

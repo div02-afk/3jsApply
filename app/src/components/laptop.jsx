@@ -5,7 +5,7 @@ import { Flex } from "@react-three/flex";
 
 export default function LaptopModel(scale) {
   const ref = useRef();
-  const modelPath = "/onwards.glb";
+  const modelPath = "/bas_last.glb";
   const { nodes, animations } = useGLTF(modelPath);
   const { actions } = useAnimations(animations, ref);
 
@@ -13,12 +13,12 @@ export default function LaptopModel(scale) {
 
   useEffect(() => {
     console.log(actions);
-    actions.ball1.repetitions = Infinity;
-    actions.ball2.repetitions = Infinity;
-    actions.ball3.repetitions = Infinity;
-    actions.ball1.play();
-    actions.ball2.play();
-    actions.ball3.play();
+    actions.loop1.repetitions = Infinity;
+    actions.loop2.repetitions = Infinity;
+    actions.loop3.repetitions = Infinity;
+    actions.loop1.play();
+    actions.loop2.play();
+    actions.loop3.play();
 
   })
 
