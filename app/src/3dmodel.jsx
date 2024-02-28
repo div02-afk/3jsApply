@@ -15,7 +15,7 @@ const Model = (scale) => {
 
       <Canvas 
         orthographic={true}
-        className="bg-red-300"
+        className="bg-black"
         camera={{ fov: 40, position: [40, 0, 0] ,zoom:80}}  
         style={{ width: "100vw", height: "100vh" }}
       >
