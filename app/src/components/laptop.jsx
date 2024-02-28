@@ -5,7 +5,7 @@ import { Flex } from "@react-three/flex";
 
 export default function LaptopModel(scale) {
   const ref = useRef();
-  const modelPath = "/bas_last.glb";
+  const modelPath = "/laptop.glb";
   const { nodes, animations } = useGLTF(modelPath);
   const { actions } = useAnimations(animations, ref);
 

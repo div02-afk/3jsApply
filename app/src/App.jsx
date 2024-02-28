@@ -25,7 +25,7 @@ function App() {
   return(
     <>
     <div className='bg-transparent h-screen w-screen'>
-      <h1 className='mt-10 font-mono  text-center text-white text-5xl opacity-0 animate__animated animate__fadeIn animate__delay-1s bg-transparent  border-solid border-red-500 border-4 rounded-lg'>Hello</h1>
+      <h1 className='mt-10 font-mono  text-center text-white text-5xl opacity-0 animate__animated animate__fadeIn animate__delay-1s bg-transparent  border-solid border-red-500 border-4 rounded-lg'>Welcome</h1>
       <div className='fixed'>
       <Model scale = {scale} position = {position} />
       </div>
